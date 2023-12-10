@@ -1,0 +1,59 @@
+.noActive {
+	display: none;
+}
+
+.container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #030F11;
+	font-family: 'Arial',sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #FC5552;
+}
+
+button {
+	padding: 15px;
+	margin: 2px;
+	color: #fff;
+	background-color: transparent;
+	border: solid 3px #213354;
+	border-radius: 3px;
+	font-weight: 700;
+}
+
+button:hover {
+	background-color: #213354;
+}
+
+.input {
+	padding: 15px;
+	margin: 2px;
+	color: #fff;
+	background-color: transparent;
+	border: solid 3px #213354;
+	border-radius: 3px;
+}
+
+.filter {
+	margin-top: 20px;
+}
+
+.filter div,
+.sort div {
+	margin-bottom: 10px;
+}
